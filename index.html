@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DFARS Clause Decoder | Plain-English Cyber Clauses</title>
+<meta name="description" content="Free DFARS cyber clause decoder. Plain-English explanations of 7012, 7019, 7020, 7021 and more, plus a quiz that tells you which clauses apply to your contract.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">AI Tech Pros <span>MAPS Tools</span></div>
+    <h1>DFARS Clause Decoder</h1>
+    <p class="sub">Defense contracts cite clauses like 252.204-7012 and expect you to know what they demand. Here is what each one actually requires, in plain English, and which ones apply to you.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <h2>Which clauses apply to you?</h2>
+    <p class="muted">Answer five questions. Get your clause list.</p>
+    <div id="quiz"></div>
+    <div id="quizResult" class="hidden"></div>
+  </section>
+
+  <section class="card">
+    <h2>Browse all clauses</h2>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search clauses…">
+    </div>
+    <div id="clauses"></div>
+  </section>
+
+  <section class="card">
+    <h2>Your contract checklist</h2>
+    <p class="muted small">Mark which clauses appear in your contract. Missing ones become your action list.</p>
+    <div id="checklist"></div>
+    <div class="row">
+      <button id="exportMd" class="btn primary">Download action list (Markdown)</button>
+      <button id="resetAll" class="btn ghost danger">Clear</button>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>Free tool from <strong>Neo Harvard</strong>, CEO of <a href="https://aitechpros.ai">AI Tech Pros</a>. Part of the <a href="https://github.com/nehemiah313/maps-framework">MAPS framework</a> family. Plain-English summaries, not legal advice. Confirm clause text and applicability with your contracting officer and counsel.</p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
