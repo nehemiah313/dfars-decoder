@@ -150,3 +150,6 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple
 .hit { background: #f8fafc; border-radius: 8px; padding: 8px 12px; font-size: 15px; display: flex; gap: 10px; align-items: center; }
 .hidden { display: none; }
 .btn.danger { color: #b91c1c; }
+
+.legal-line{margin-top:1rem;font-size:.85rem;color:#6b7280}
+.storage-note{font-size:.8rem;color:#9ca3af;margin-top:.4rem}
